@@ -53,8 +53,10 @@ rm(list=ls(all=TRUE))
 # Set working directory.
 # The '<-' operator denotes right-to-left assignment.
 # wdPath <- '/path/to/your/folder'
-wdPath <- 'C:/Users/le279259/Documents/Teaching/GEB6895_Fall2019/GitRepos/demo_03_intro_to_R'
+
+wdPath <- 'C:/Users/13073/Documents/GEB_FORK/GEB6895F19/demo_03_intro_to_R'
 setwd(wdPath)
+
 
 # Check this in unix (doesn't always work in Windows).
 system('pwd')
@@ -112,7 +114,6 @@ class(full_string)
 
 
 # Most characters can be used in variable names.
-some_numbers.integers <- 1:10
 class(some_numbers.integers)
 
 # Numeric is a broader class of, well, numeric variables.
