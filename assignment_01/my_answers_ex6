@@ -1,0 +1,28 @@
+################################################################################################################################
+##Example Six- data sets 
+#######################################################################################################################
+
+Start 
+
+# Create a vector.##  
+x <- c("d","e","a","y","f")
+
+## Find Mean ####
+result.mean <- mean(x)
+
+print =("The mean for this data set is "result.mean"")
+
+# Find the max of the vector#### 
+x<-c("d","e","a","y","f")
+results.max <- max(x)
+
+Print =("The maximum vaule is "results.max" for this set of data") 
+
+# Find the min of the vector#### 
+x<-c("d","e","a","y","f")
+results.min <- min(x)
+
+Print =("The minumum value is "results.min" for this set of data")
+
+
+End
